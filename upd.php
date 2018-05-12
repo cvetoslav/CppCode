@@ -12,7 +12,7 @@ require_once(__DIR__ . '/entities/db.php');
 	}
 	else
 	{
-		if($_SERVER['PHP_AUTH_USER'] == "admin" && $_SERVER['PHP_AUTH_PW'] == "dm6123456")
+		if($_SERVER['PHP_AUTH_USER'] == "USER" && $_SERVER['PHP_AUTH_PW'] == "PASS")
 		{
 			if(isset($_POST['data']))
 			{
