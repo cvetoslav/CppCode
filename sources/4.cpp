@@ -1,0 +1,1 @@
+ w3-hover w3-hover-teal
